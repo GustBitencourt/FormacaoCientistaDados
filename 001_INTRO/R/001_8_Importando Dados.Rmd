@@ -1,0 +1,19 @@
+```{r}
+#install.packages("openxlsx")
+library(openxlsx)
+```
+Texto
+```{r}
+x = read.csv(
+    "C:\\Workspace/FormaçãoPython/Data/Credit.csv",
+    header = TRUE, sep = ","
+)
+dim(x)
+```
+Excel
+```{r}
+dados = read.xlsx("planilha.xlsx",sheet= 1)
+dados
+```
+
+

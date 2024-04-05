@@ -1,0 +1,60 @@
+# 001 - INTRODUÇÃO AO PYTHON
+
+- variavel
+  - espaço em memória
+  - Possui tipos:
+        - String
+        - Inteiro
+        - Float
+        - Booleano
+- print exibe valores nos console
+- Importante atenta-se a identação em Python
+- Estruturas de Decisão
+  - a partir de determinada condição programa faz A ou B
+  - Utiliza operadores de comparação
+    - (>) maior
+    - (<) menor
+    - (>=) maior igual
+    - (<=) menor igual
+    - (!=) diferente
+    - (==) igual
+  - Utiliza operadores Lógicos
+    - and
+    - or
+    - not
+- Estruturas de Repetição
+  - Quando o código deve rodar um determinado número de vezes a partir de certa condição
+  - Existe while e for
+  - pode ser interrompido com break
+  - continue reinicia o comando
+- Listas
+  - caracteriza pelo uso de colchetes []
+  - pode ter vários tipos de dados
+- Dicionários
+  - semelhante a JSON
+  - Utiliza {}
+  - Ex:
+    - preco = {'lapis':1.2, 'caneta': 3.0}
+- Sets
+  - conjunto não ordenados e não repetidos de elementos
+  - parecido com listas
+- Tuplas
+  - Listas que não poder ser alteradas
+  - Ex:
+    - tp = (1, 2, 11, 3,4)
+- Módulos:
+  - adiciona funcões ao código
+  - Alguns podem ser instalados com o uso do pip
+- Bibliotecas:
+  - Numpy
+    - Facilita operações matemáticas com muitos dados
+    - Matriz Multidimensional
+    - Variedade de rotinas e operações
+    - Tamanho fixo na criação
+    - Devem possuir o mesmo tipo
+- Pandas
+  - Permite manipular dados tabulares
+- Funções:
+  - Bloco de códigos reutilizaveis
+  - existem funções já prédefinidas pelo python
+  - pode criar as suas
